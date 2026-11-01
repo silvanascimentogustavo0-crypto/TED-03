@@ -1,0 +1,46 @@
+$ python -m unittest discover -s tests -v
+test_arquivo_inexistente (test_persistencia.TestesPersistencia.test_arquivo_inexistente) ... ok
+test_atualizacao_csv_com_metadados_mantem_integridade (test_persistencia.TestesPersistencia.test_atualizacao_csv_com_metadados_mantem_integridade) ... ok
+test_backup_antes_de_substituir_saida_existente (test_persistencia.TestesPersistencia.test_backup_antes_de_substituir_saida_existente) ... ok
+test_backup_precede_atualizacao_csv (test_persistencia.TestesPersistencia.test_backup_precede_atualizacao_csv) ... ok
+test_backup_precede_atualizacao_json (test_persistencia.TestesPersistencia.test_backup_precede_atualizacao_json) ... ok
+test_codificacao_invalida (test_persistencia.TestesPersistencia.test_codificacao_invalida) ... ok
+test_csv_com_colunas_a_mais_e_rejeitado (test_persistencia.TestesPersistencia.test_csv_com_colunas_a_mais_e_rejeitado) ... ok
+test_csv_editado_sem_metadados_atualizados_e_bloqueado (test_persistencia.TestesPersistencia.test_csv_editado_sem_metadados_atualizados_e_bloqueado) ... ok
+test_csv_para_json_preserva_textos_e_zeros_iniciais (test_persistencia.TestesPersistencia.test_csv_para_json_preserva_textos_e_zeros_iniciais) ... ok
+test_json_csv_json_preserva_tipos_e_estrutura (test_persistencia.TestesPersistencia.test_json_csv_json_preserva_tipos_e_estrutura) ... ok
+test_json_invalido (test_persistencia.TestesPersistencia.test_json_invalido) ... ok
+test_json_objeto_unico_preservado (test_persistencia.TestesPersistencia.test_json_objeto_unico_preservado) ... ok
+test_registro_fora_do_intervalo_nao_altera_arquivo (test_persistencia.TestesPersistencia.test_registro_fora_do_intervalo_nao_altera_arquivo) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.033s
+
+OK
+
+[OK] JSON convertido para CSV: /tmp/tmpsojbnx2o/saida.csv (1 registro(s)).
+[INFO] Metadados para preservação de tipos: /tmp/tmpsojbnx2o/saida.csv.tipos.json
+[BACKUP] Cópia anterior preservada em: /tmp/tmpsojbnx2o/saida.csv.20261101T015422Z.0bafeb92.bak
+[BACKUP] Cópia anterior preservada em: /tmp/tmpsojbnx2o/saida.csv.tipos.json.20261101T015422Z.0efaf8a3.bak
+[OK] CSV atualizado: registro 0, campo 'nome' = 'Maria'.
+[OK] CSV convertido para JSON: /tmp/tmpsojbnx2o/volta.json (1 registro(s)).
+[INFO] Tipos e estrutura JSON reconstituídos a partir dos metadados.
+[BACKUP] Cópia anterior preservada em: /tmp/tmpmezku0ay/saida.json.20261101T015422Z.4936eee1.bak
+[OK] CSV convertido para JSON: /tmp/tmpmezku0ay/saida.json (1 registro(s)).
+[INFO] CSV não possui metadados; os valores foram preservados como texto.
+[BACKUP] Cópia anterior preservada em: /tmp/tmpe23uihas/clientes.csv.20261101T015422Z.c106c2eb.bak
+[OK] CSV atualizado: registro 0, campo 'cidade' = 'Imperatriz'.
+[BACKUP] Cópia anterior preservada em: /tmp/tmpz07mexdk/original.json.20261101T015422Z.425f73b9.bak
+[OK] JSON atualizado: registro 0, campo 'nome' = 'João'.
+[OK] JSON convertido para CSV: /tmp/tmp87kvzg2c/saida.csv (1 registro(s)).
+[INFO] Metadados para preservação de tipos: /tmp/tmp87kvzg2c/saida.csv.tipos.json
+[OK] CSV convertido para JSON: /tmp/tmp8orm18fx/saida.json (2 registro(s)).
+[INFO] CSV não possui metadados; os valores foram preservados como texto.
+[OK] JSON convertido para CSV: /tmp/tmp748h6pwe/saida.csv (2 registro(s)).
+[INFO] Metadados para preservação de tipos: /tmp/tmp748h6pwe/saida.csv.tipos.json
+[OK] CSV convertido para JSON: /tmp/tmp748h6pwe/volta.json (2 registro(s)).
+[INFO] Tipos e estrutura JSON reconstituídos a partir dos metadados.
+[OK] JSON convertido para CSV: /tmp/tmp6xjs5t_9/um.csv (1 registro(s)).
+[INFO] Metadados para preservação de tipos: /tmp/tmp6xjs5t_9/um.csv.tipos.json
+[OK] CSV convertido para JSON: /tmp/tmp6xjs5t_9/volta.json (1 registro(s)).
+[INFO] Tipos e estrutura JSON reconstituídos a partir dos metadados.

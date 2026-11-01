@@ -1,0 +1,3 @@
+$ python main.py ler-csv dados/arquivo_inexistente.csv
+[ERRO] Arquivo não encontrado: dados/arquivo_inexistente.csv
+[Processo finalizado com código 1]

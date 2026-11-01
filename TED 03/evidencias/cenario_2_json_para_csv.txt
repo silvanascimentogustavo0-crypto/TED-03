@@ -1,0 +1,14 @@
+$ python main.py json-para-csv dados/produtos.json evidencias/arquivos_gerados/produtos.csv
+[OK] JSON convertido para CSV: evidencias/arquivos_gerados/produtos.csv (2 registro(s)).
+[INFO] Metadados para preservação de tipos: evidencias/arquivos_gerados/produtos.csv.tipos.json
+
+[CONTEÚDO: evidencias/arquivos_gerados/produtos.csv]
+id,produto,preco,disponivel,variantes,observacao
+1,Camiseta esportiva,79.9,true,"[""P"", ""M"", ""G""]",null
+2,Bermuda térmica,59.5,false,"[""M"", ""G""]",Edição especial
+
+$ python main.py csv-para-json evidencias/arquivos_gerados/produtos.csv evidencias/arquivos_gerados/produtos_volta.json
+[OK] CSV convertido para JSON: evidencias/arquivos_gerados/produtos_volta.json (2 registro(s)).
+[INFO] Tipos e estrutura JSON reconstituídos a partir dos metadados.
+
+[VALIDAÇÃO] JSON original é igual ao JSON recuperado: SIM

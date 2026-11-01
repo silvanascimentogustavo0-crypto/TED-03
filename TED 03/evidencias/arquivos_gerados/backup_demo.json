@@ -1,0 +1,20 @@
+[
+  {
+    "id": "001",
+    "nome": "Ana Vitória",
+    "cidade": "Imperatriz",
+    "telefone": "099988776655"
+  },
+  {
+    "id": "002",
+    "nome": "João Pedro",
+    "cidade": "Imperatriz",
+    "telefone": "099977665544"
+  },
+  {
+    "id": "003",
+    "nome": "Maria Clara",
+    "cidade": "São Luís",
+    "telefone": "099966554433"
+  }
+]

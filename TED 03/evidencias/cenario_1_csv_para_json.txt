@@ -1,0 +1,22 @@
+$ python main.py csv-para-json dados/clientes.csv evidencias/arquivos_gerados/clientes.json
+[OK] CSV convertido para JSON: evidencias/arquivos_gerados/clientes.json (3 registro(s)).
+[INFO] CSV não possui metadados; os valores foram preservados como texto.
+
+[CONTEÚDO: evidencias/arquivos_gerados/clientes.json]
+[
+  {
+    "id": "001",
+    "nome": "Ana Vitória",
+    "cidade": "Balsas",
+    "telefone": "099988776655"
+  },
+  {
+    "id": "002",
+    "nome": "João Pedro",
+    "cidade": "Imperatriz",
+    "telefone": "099977665544"
+  },
+  {
+    "id": "003",
+    "nome": "Maria Clara",
+... (4 linhas adicionais)

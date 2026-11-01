@@ -1,0 +1,3 @@
+id,produto,preco,disponivel,variantes,observacao
+1,Camiseta esportiva,79.9,true,"[""P"", ""M"", ""G""]",null
+2,Bermuda térmica,59.5,false,"[""M"", ""G""]",Edição especial

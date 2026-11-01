@@ -1,0 +1,7 @@
+$ python main.py atualizar-json evidencias/arquivos_gerados/clientes.json 0 cidade Imperatriz
+[BACKUP] Cópia anterior preservada em: evidencias/arquivos_gerados/clientes.json.20261101T015420Z.25fb6c59.bak
+[OK] JSON atualizado: registro 0, campo 'cidade' = 'Imperatriz'.
+
+[VERIFICAÇÃO] Cidade preservada no backup: Balsas
+[VERIFICAÇÃO] Cidade no arquivo atualizado: Imperatriz
+[VERIFICAÇÃO] Arquivo de backup existente: SIM

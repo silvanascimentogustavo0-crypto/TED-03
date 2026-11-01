@@ -1,0 +1,31 @@
+{
+  "versao": 1,
+  "origem_raiz": "lista",
+  "colunas": [
+    "id",
+    "produto",
+    "preco",
+    "disponivel",
+    "variantes",
+    "observacao"
+  ],
+  "tipos": [
+    {
+      "id": "int",
+      "produto": "str",
+      "preco": "float",
+      "disponivel": "bool",
+      "variantes": "list",
+      "observacao": "null"
+    },
+    {
+      "id": "int",
+      "produto": "str",
+      "preco": "float",
+      "disponivel": "bool",
+      "variantes": "list",
+      "observacao": "str"
+    }
+  ],
+  "sha256_csv": "aa66dc837a1d2856c74d3c2f860ec2881cf8721934eaf63faf65e92ebff4290e"
+}

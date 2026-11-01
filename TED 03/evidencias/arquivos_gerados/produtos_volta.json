@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "produto": "Camiseta esportiva",
+    "preco": 79.9,
+    "disponivel": true,
+    "variantes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "observacao": null
+  },
+  {
+    "id": 2,
+    "produto": "Bermuda térmica",
+    "preco": 59.5,
+    "disponivel": false,
+    "variantes": [
+      "M",
+      "G"
+    ],
+    "observacao": "Edição especial"
+  }
+]
